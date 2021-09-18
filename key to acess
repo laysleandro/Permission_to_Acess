@@ -1,0 +1,9 @@
+senha = "lordoftherings"
+confirme_senha =" "
+
+while (confirme_senha != senha) :
+        confirme_senha = input("Digite a senha : ")
+        if confirme_senha == senha :
+            print("Acesso liberado")
+        else :
+            print("Senha incorreta, tente novamente")
